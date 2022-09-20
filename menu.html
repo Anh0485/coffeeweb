@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <link href="//fonts.googleapis.com/css2?family=Manrope:wght@200;400;600&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./node_modules/@fortawesome/fontawesome-free/css/all.css">
+    <link rel="stylesheet" type="text/css" href="./node_modules/@fortawesome/fontawesome-free/js/js.css">
+    <!-- bootraps -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <!-- css -->
+
+    
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/responsive.css">
+</head>
+<body>
+    <div class="header fixed-top" id="site-header">
+		<div class="container header_1">
+			<nav class="navbar navbar-expand-lg navbar-dark stroke">
+				<a href="index.html" class="navbar-brand">
+					<span class="">
+						<i class="icon fas fa-coffee " style="color: #fff; font-size: 32px;"></i>
+					</span>
+					Coffee
+				</a>
+				<button class="navbar-toggler collapsed bg-gradient" data-toggle="collapse" type="button"
+					data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+					aria-label="Toggle navigation">
+					<i class="navbar-toggler-icon icon-expand fas fa-bars"></i>
+					
+					
+				</button>
+				<div class="navbar-collapse collapse" id="navbarTogglerDemo02">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item active">
+							<a href="index.html" class="nav-link">Home</a>
+						</li>
+						<li class="nav-item ">
+							<a href="about.html" class="nav-link">About</a>
+						</li>
+						<li class="nav-item ">
+							<a href="menu.html" class="nav-link">Menu</a>
+						</li>
+
+						<!-- dropdown  -->
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+								data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								Pages
+							</a>
+							<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+								<a class="dropdown-item" href="gallery.html">Coffee Galery</a>
+								<a class="dropdown-item" href="reservation.html">Book a table</a>
+								<a href="landing-space.html" class="dropdown-item">Landing page</a>
+							</div>
+							<!-- //dropdown -->
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+								data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								Blog
+							</a>
+							<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+								<a class="dropdown-item" href="blog.html">Blog post</a>
+								<a class="dropdown-item" href="blog-single.html.html">Blog single</a>
+							</div>
+						<li class="nav-item ">
+							<a href="index.html" class="nav-link">Contact</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+	</div>
+    <div class="w3l-menublock py-5" style="margin-top: 30px">
+        <div id="w3l-menublock" class="text-center py-lg-4 py-md-3">
+            <div class="container">
+                <div class="title-conntent mb-5">
+                    <h5 class="title-small text center mb-2">
+                        Check it below
+                    </h5>
+                    <h3 class="title-big text-center mb-5">
+                        Our Menu Items
+                    </h3>
+                </div>
+                <input id="tab1" type="radio" name="tabs" checked>
+                <label  class="tabtle" for="tab1">Coffee</label>
+                <input id="tab2" type="radio" name="tabs">
+                <label class="tabtle" for="tab2">Hot Beverages</label>
+                <input id="tab3" type="radio" name="tabs">
+                <label class="tabtle" for="tab3">Cold Beverages</label>
+            <section id="content1" class="tab-content text-left">
+                <!-- coffee -->
+                <div class="row menu-body">
+                    <!-- start -->
+                    <div class="col-lg-6 menu-section pr-lg-5">
+                        <!-- Item starts -->
+                        <div class="menu-item">
+                            <img src="./img/middle.png" alt="" class="radius-image img-fluid">
+                            <div>
+                                <div class="row border-dot no-gutters">
+                                    <div class="col-8 menu-item-name">
+                                        <h6>Single Cup Brew</h6>
+                                    </div>
+                                    <div class="col-4 menu-item-price text-right">
+                                        <h6>$19.50</h6>
+                                    </div>
+                                </div>
+                                <div class="menu-item-description">
+                                    <p>Fresh Brewed coffee and steamed milk</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- item end -->
+                         <!-- Item starts -->
+                         <div class="menu-item">
+                            <img src="./img/middle1.png" alt="" class="radius-image img-fluid">
+                            <div>
+                                <div class="row border-dot no-gutters">
+                                    <div class="col-8 menu-item-name">
+                                        <h6> Caffé Americano</h6>
+                                    </div>
+                                    <div class="col-4 menu-item-price text-right">
+                                        <h6>$13.75</h6>
+                                    </div>
+                                </div>
+                                <div class="menu-item-description">
+                                    <p>Fresh Brewed coffee and steamed milk</p>
+                                </div>
+                            </div>
+                        </div>
+                         <!-- item end -->
+                          <!-- Item starts -->
+                          <div class="menu-item">
+                            <img src="./img/middle2.png" alt="" class="radius-image img-fluid">
+                            <div>
+                                <div class="row border-dot no-gutters">
+                                    <div class="col-8 menu-item-name">
+                                        <h6> Caramel Macchiato</h6>
+                                    </div>
+                                    <div class="col-4 menu-item-price text-right">
+                                        <h6>$10.50</h6>
+                                    </div>
+                                </div>
+                                <div class="menu-item-description">
+                                    <p>Fresh Brewed coffee and steamed milk</p>
+                                </div>
+                            </div>
+                        </div>
+                         <!-- item end -->
+                         <!-- Item starts -->
+                         <div class="menu-item">
+                            <img src="./img/middle3.png" alt="" class="radius-image img-fluid">
+                            <div>
+                                <div class="row border-dot no-gutters">
+                                    <div class="col-8 menu-item-name">
+                                        <h6> Standard black coffee</h6>
+                                    </div>
+                                    <div class="col-4 menu-item-price text-right">
+                                        <h6>$8.25</h6>
+                                    </div>
+                                </div>
+                                <div class="menu-item-description">
+                                    <p>Fresh Brewed coffee and steamed milk</p>
+                                </div>
+                            </div>
+                        </div>
+                         <!-- item end -->
+                         <!-- Item starts -->
+                    </div>
+                    <div class="col-lg-6 menu-section pr-lg-5">
+                         <div class="menu-item">
+                            <img src="./img/middle2.png" alt="" class="radius-image img-fluid">
+                            <div>
+                                <div class="row border-dot no-gutters">
+                                    <div class="col-8 menu-item-name">
+                                        <h6> Black Eyed Andy</h6>
+                                    </div>
+                                    <div class="col-4 menu-item-price text-right">
+                                        <h6>$23.45</h6>
+                                    </div>
+                                </div>
+                                <div class="menu-item-description">
+                                    <p>Fresh Brewed coffee and steamed milk</p>
+                                </div>
+                            </div>
+                        </div>
+                         <!-- item end -->
+                         <!-- Item starts -->
+                         <div class="menu-item">
+                            <img src="./img/middle3.png" alt="" class="radius-image img-fluid">
+                            <div>
+                                <div class="row border-dot no-gutters">
+                                    <div class="col-8 menu-item-name">
+                                        <h6>Coffee of the Day</h6>
+                                    </div>
+                                    <div class="col-4 menu-item-price text-right">
+                                        <h6>$21.75</h6>
+                                    </div>
+                                </div>
+                                <div class="menu-item-description">
+                                    <p>Fresh Brewed coffee and steamed milk</p>
+                                </div>
+                            </div>
+                        </div>
+                         <!-- item end -->
+                          <!-- Item starts -->
+                          <div class="menu-item">
+                            <img src="./img/middle.png" alt="" class="radius-image img-fluid">
+                            <div>
+                                <div class="row border-dot no-gutters">
+                                    <div class="col-8 menu-item-name">
+                                        <h6>Cuban Shot</h6>
+                                    </div>
+                                    <div class="col-4 menu-item-price text-right">
+                                        <h6>$13.60</h6>
+                                    </div>
+                                </div>
+                                <div class="menu-item-description">
+                                    <p>Fresh Brewed coffee and steamed milk</p>
+                                </div>
+                            </div>
+                        </div>
+                         <!-- item end -->
+                          <!-- Item starts -->
+                          <div class="menu-item">
+                            <img src="./img/middle1.png" alt="" class="radius-image img-fluid">
+                            <div>
+                                <div class="row border-dot no-gutters">
+                                    <div class="col-8 menu-item-name">
+                                        <h6>Café Latte</h6>
+                                    </div>
+                                    <div class="col-4 menu-item-price text-right">
+                                        <h6>$11.25</h6>
+                                    </div>
+                                </div>
+                                <div class="menu-item-description">
+                                    <p>Fresh Brewed coffee and steamed milk</p>
+                                </div>
+                            </div>
+                        </div>
+                         <!-- item end -->
+
+                    </div>
+                </div>
+            </section>
+            <section  id="content2" class="tab-content text-left">
+                <!-- Hot beverages  -->
+                <div class="row menu-body">
+                    <!-- start -->
+                    <div class="col-lg-6 menu-section pr-lg-5">
+                        <!-- Item starts -->
+                        <div class="menu-item">
+                            <img src="./img/middle3.png" alt="" class="radius-image img-fluid">
+                            <div>
+                                <div class="row border-dot no-gutters">
+                                    <div class="col-8 menu-item-name">
+                                        <h6>Caramel Macchiato</h6>
+                                    </div>
+                                    <div class="col-4 menu-item-price text-right">
+                                        <h6>$20</h6>
+                                    </div>
+                                </div>
+                                <div class="menu-item-description">
+                                    <p>Fresh Brewed coffee and steamed milk</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- item end -->
+                         <!-- Item starts -->
+                         <div class="menu-item">
+                            <img src="./img/middle2.png" alt="" class="radius-image img-fluid">
+                            <div>
+                                <div class="row border-dot no-gutters">
+                                    <div class="col-8 menu-item-name">
+                                        <h6> Coffee of the Day</h6>
+                                    </div>
+                                    <div class="col-4 menu-item-price text-right">
+                                        <h6>$50</h6>
+                                    </div>
+                                </div>
+                                <div class="menu-item-description">
+                                    <p>Fresh Brewed coffee and steamed milk</p>
+                                </div>
+                            </div>
+                        </div>
+                         <!-- item end -->
+                          <!-- Item starts -->
+                          <div class="menu-item">
+                            <img src="./img/middle.png" alt="" class="radius-image img-fluid">
+                            <div>
+                                <div class="row border-dot no-gutters">
+                                    <div class="col-8 menu-item-name">
+                                        <h6> Caffé Americano</h6>
+                                    </div>
+                                    <div class="col-4 menu-item-price text-right">
+                                        <h6>$23</h6>
+                                    </div>
+                                </div>
+                                <div class="menu-item-description">
+                                    <p>Fresh Brewed coffee and steamed milk</p>
+                                </div>
+                            </div>
+                        </div>
+                         <!-- item end -->
+                         <!-- Item starts -->
+                         <div class="menu-item">
+                            <img src="./img/middle1.png" alt="" class="radius-image img-fluid">
+                            <div>
+                                <div class="row border-dot no-gutters">
+                                    <div class="col-8 menu-item-name">
+                                        <h6>Filtered Coffee</h6>
+                                    </div>
+                                    <div class="col-4 menu-item-price text-right">
+                                        <h6>$50</h6>
+                                    </div>
+                                </div>
+                                <div class="menu-item-description">
+                                    <p>Fresh Brewed coffee and steamed milk</p>
+                                </div>
+                            </div>
+                        </div>
+                         <!-- item end -->
+                    </div>
+                    <div class="col-lg-6 menu-section pr-lg-5">
+                         <!-- Item starts -->
+                         <div class="menu-item">
+                            <img src="./img/middle2.png" alt="" class="radius-image img-fluid">
+                            <div>
+                                <div class="row border-dot no-gutters">
+                                    <div class="col-8 menu-item-name">
+                                        <h6>Cappuccino coffee</h6>
+                                    </div>
+                                    <div class="col-4 menu-item-price text-right">
+                                        <h6>$10</h6>
+                                    </div>
+                                </div>
+                                <div class="menu-item-description">
+                                    <p>Fresh Brewed coffee and steamed milk</p>
+                                </div>
+                            </div>
+                        </div>
+                         <!-- item end -->
+                         <!-- Item starts -->
+                         <div class="menu-item">
+                            <img src="./img/middle1.png" alt="" class="radius-image img-fluid">
+                            <div>
+                                <div class="row border-dot no-gutters">
+                                    <div class="col-8 menu-item-name">
+                                        <h6>Cafe latte</h6>
+                                    </div>
+                                    <div class="col-4 menu-item-price text-right">
+                                        <h6>$10</h6>
+                                    </div>
+                                </div>
+                                <div class="menu-item-description">
+                                    <p>Fresh Brewed coffee and steamed milk</p>
+                                </div>
+                            </div>
+                        </div>
+                         <!-- item end -->
+                          <!-- Item starts -->
+                          <div class="menu-item">
+                            <img src="./img/middle3.png" alt="" class="radius-image img-fluid">
+                            <div>
+                                <div class="row border-dot no-gutters">
+                                    <div class="col-8 menu-item-name">
+                                        <h6>Espresso coffee</h6>
+                                    </div>
+                                    <div class="col-4 menu-item-price text-right">
+                                        <h6>$15</h6>
+                                    </div>
+                                </div>
+                                <div class="menu-item-description">
+                                    <p>Fresh Brewed coffee and steamed milk</p>
+                                </div>
+                            </div>
+                        </div>
+                         <!-- item end -->
+                          <!-- Item starts -->
+                          <div class="menu-item">
+                            <img src="./img/middle.png" alt="" class="radius-image img-fluid">
+                            <div>
+                                <div class="row border-dot no-gutters">
+                                    <div class="col-8 menu-item-name">
+                                        <h6>Ice/Cold Coffee
+                                        </h6>
+                                    </div>
+                                    <div class="col-4 menu-item-price text-right">
+                                        <h6>$18</h6>
+                                    </div>
+                                </div>
+                                <div class="menu-item-description">
+                                    <p>Fresh Brewed coffee and steamed milk</p>
+                                </div>
+                            </div>
+                        </div>
+                         <!-- item end -->
+                        </div>
+                    </div>
+            </section>
+          
+            <section id="content3" class="tab-content text-left">
+                <!-- Cold Beverages  -->
+                <div class="row menu-body">
+                    <!-- start -->
+                    <div class="col-lg-6 menu-section pr-lg-5">
+                        <!-- Item starts -->
+                        <div class="menu-item">
+                            <img src="./img/middle.png" alt="" class="radius-image img-fluid">
+                            <div>
+                                <div class="row border-dot no-gutters">
+                                    <div class="col-8 menu-item-name">
+                                        <h6>Single Cup Brew</h6>
+                                    </div>
+                                    <div class="col-4 menu-item-price text-right">
+                                        <h6>$19.50</h6>
+                                    </div>
+                                </div>
+                                <div class="menu-item-description">
+                                    <p>Fresh Brewed coffee and steamed milk</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- item end -->
+                         <!-- Item starts -->
+                         <div class="menu-item">
+                            <img src="./img/middle1.png" alt="" class="radius-image img-fluid">
+                            <div>
+                                <div class="row border-dot no-gutters">
+                                    <div class="col-8 menu-item-name">
+                                        <h6> Caffé Americano</h6>
+                                    </div>
+                                    <div class="col-4 menu-item-price text-right">
+                                        <h6>$13.75</h6>
+                                    </div>
+                                </div>
+                                <div class="menu-item-description">
+                                    <p>Fresh Brewed coffee and steamed milk</p>
+                                </div>
+                            </div>
+                        </div>
+                         <!-- item end -->
+                          <!-- Item starts -->
+                          <div class="menu-item">
+                            <img src="./img/middle3.png" alt="" class="radius-image img-fluid">
+                            <div>
+                                <div class="row border-dot no-gutters">
+                                    <div class="col-8 menu-item-name">
+                                        <h6>Caramel Macchiato</h6>
+                                    </div>
+                                    <div class="col-4 menu-item-price text-right">
+                                        <h6>$10.50</h6>
+                                    </div>
+                                </div>
+                                <div class="menu-item-description">
+                                    <p>Fresh Brewed coffee and steamed milk</p>
+                                </div>
+                            </div>
+                        </div>
+                         <!-- item end -->
+                         <!-- Item starts -->
+                         <div class="menu-item">
+                            <img src="./img/middle2.png" alt="" class="radius-image img-fluid">
+                            <div>
+                                <div class="row border-dot no-gutters">
+                                    <div class="col-8 menu-item-name">
+                                        <h6>Standard black coffee</h6>
+                                    </div>
+                                    <div class="col-4 menu-item-price text-right">
+                                        <h6>$8.25</h6>
+                                    </div>
+                                </div>
+                                <div class="menu-item-description">
+                                    <p>Fresh Brewed coffee and steamed milk</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                         <!-- item end -->
+                    <div class="col-lg-6 menu-section pr-lg-5">
+                         <!-- Item starts -->
+                         <div class="menu-item">
+                            <img src="./img/middle1.png" alt="" class="radius-image img-fluid">
+                            <div>
+                                <div class="row border-dot no-gutters">
+                                    <div class="col-8 menu-item-name">
+                                        <h6>Black Eyed Andy</h6>
+                                    </div>
+                                    <div class="col-4 menu-item-price text-right">
+                                        <h6>$23.45</h6>
+                                    </div>
+                                </div>
+                                <div class="menu-item-description">
+                                    <p>Fresh Brewed coffee and steamed milk</p>
+                                </div>
+                            </div>
+                        </div>
+                         <!-- item end -->
+                         <!-- Item starts -->
+                         <div class="menu-item">
+                            <img src="./img/middle3.png" alt="" class="radius-image img-fluid">
+                            <div>
+                                <div class="row border-dot no-gutters">
+                                    <div class="col-8 menu-item-name">
+                                        <h6>Coffee of the Day</h6>
+                                    </div>
+                                    <div class="col-4 menu-item-price text-right">
+                                        <h6>$21.75</h6>
+                                    </div>
+                                </div>
+                                <div class="menu-item-description">
+                                    <p>Fresh Brewed coffee and steamed milk</p>
+                                </div>
+                            </div>
+                        </div>
+                         <!-- item end -->
+                          <!-- Item starts -->
+                          <div class="menu-item">
+                            <img src="./img/middle2.png" alt="" class="radius-image img-fluid">
+                            <div>
+                                <div class="row border-dot no-gutters">
+                                    <div class="col-8 menu-item-name">
+                                        <h6>Cuban Shot</h6>
+                                    </div>
+                                    <div class="col-4 menu-item-price text-right">
+                                        <h6>$13.60</h6>
+                                    </div>
+                                </div>
+                                <div class="menu-item-description">
+                                    <p>Fresh Brewed coffee and steamed milk</p>
+                                </div>
+                            </div>
+                        </div>
+                         <!-- item end -->
+                          <!-- Item starts -->
+                          <div class="menu-item">
+                            <img src="./img/middle.png" alt="" class="radius-image img-fluid">
+                            <div>
+                                <div class="row border-dot no-gutters">
+                                    <div class="col-8 menu-item-name">
+                                        <h6>Café Latte
+                                        </h6>
+                                    </div>
+                                    <div class="col-4 menu-item-price text-right">
+                                        <h6>$11.25</h6>
+                                    </div>
+                                </div>
+                                <div class="menu-item-description">
+                                    <p>Fresh Brewed coffee and steamed milk</p>
+                                </div>
+                            </div>
+                        </div>
+                         <!-- item end -->
+                        </div>
+                    </div>
+                
+            </section>
+            </div>
+
+
+        </div>
+    </div>
+    <div class="footer-main">
+		<div class="footer-29">
+			<div class="container ">
+				<div class="row">
+					<div class="col-xl-3 col-lg-6  list">
+						<h6 class="footer-title">Contact Us</h6>
+						<ul class="ul">
+							<li>
+								<p>
+									<i class="far fa-map-marker-alt"></i>
+									2005 Stokes Isle Apt. 896, Coffee Cafe Center, Vacaville 10010, USA.
+								</p>
+							</li>
+							<li>
+								<a href=""><i class="fas fa-phone-alt"></i>
+									+(21)-255-999-8888
+								</a>
+							</li>
+							<li>
+								<a href="">
+									<i class="far fa-envelope"></i>
+									Coffee@mail.com
+								</a>
+							</li>
+						</ul>
+						<div class="main-social">
+							<a href="#facebook" class="facebook">
+								<i class="fab fa-facebook-f"></i>
+							</a>
+							<a href="#twitter" class="twitter">
+								<i class="fab fa-twitter"></i>
+							</a>
+							<a href="#google" class="google">
+								<i class="fab fa-google-plus-square"></i>
+							</a>
+							<a href="#linked" class="linked">
+								<i class="fab fa-linkedin-in"></i>
+							</a>
+						</div>
+
+					</div>
+					<div class="col-xl-3 col-lg-6  list">
+						<ul class="ul">
+							<h6 class="footer-title">Featured Links</h6>
+							<li>
+								<a href="">Our Team</a>
+							</li>
+							<li>
+								<a href="">Instagram feed</a>
+							</li>
+							<li>
+								<a href="">Our Branches</a>
+							</li>
+							<li>
+								<a href="">Carreers</a>
+							</li>
+							<li>
+								<a href="">Help & Support</a>
+							</li>
+						</ul>
+					</div>
+					<div class="col-xl-3 col-lg-6  list">
+						<h6 class="footer-title">Newsletter</h6>
+						<p> Get in your inbox the latest News and</p>
+						<form class="subscribe">
+							<input type="email" name="email" placeholder="Email">
+							<button>
+								<span class="fas fa-envelope"></span>
+							</button>
+						</form>
+						<p>Subscribe and get our weekly newsletter</p>
+						<p>We'll never share your email address</p>
+					</div>
+					<div class="col-xl-3 col-lg-6  list">
+						<ul class="ul">
+							<h6 class="footer-title">Quick Links</h6>
+							<li>
+								<a href="">Home Page</a>
+							</li>
+							<li>
+								<a href="">About Us</a>
+							</li>
+							<li>
+								<a href="">Our Menu</a>
+							</li>
+							<li>
+								<a href="">Blog Post</a>
+							</li>
+							<li>
+								<a href="">Contact Us</a>
+							</li>
+						</ul>
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+		<div class="bottoms">
+			<p class="Vanh">Phạm Vân Anh - 207PM09803</p>
+			<p class="Vanh">Võ Như Phương - 197TL16041
+			</p>
+			<p class="Vanh">Trịnh Hoài Phúc Hải - 207PM27396</p>
+
+		</div>
+
+	</div>
+    <!-- script boostraps -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+        crossorigin="anonymous"></script>
+</body>
+</html>
